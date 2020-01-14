@@ -1,0 +1,219 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: hsl(0, 36%, 70%);
+  padding: 0px;
+  margin:0;
+  width: 40%;
+  max-height: 630px;
+  font-weight: 400;
+overflow:hidden;
+
+
+}
+h1{
+  font-size:5.5rem;
+  float :left;
+  font-weight:lighter;
+}
+
+h2{
+  margin:3% 1% 3% 3%;
+  line-height: normal;
+
+}
+
+input{
+  width: 400px;
+  height: 50px;
+  border-radius: 20px;
+  position: relative;
+  bottom: 726px;
+  left: 85px;
+}
+a{
+  color: #ff5d6c;
+}
+a:hover{
+  color: #fbceb5;
+}
+.first-p{
+  position: absolute;
+  top: 415px;
+  font-size: 17px;
+  left: 87px;
+
+
+}
+.container-text{
+  float:left;
+  width: 50%;
+  margin: 15% 15% 15% 15%;
+
+
+}
+.firstText{
+  color: #CE9797;
+  position: absolute;
+  left:80px;
+  top:10px;
+  margin: 10% 0% 15% 0%
+}
+.secondText{
+margin: 10% 5% 15% 0%;
+position: relative;
+left:0px;
+top:100px;
+color:black;
+
+}
+.logo
+{
+  position: relative;
+  top: 30px;
+  left:80px;
+  z-index: 1;
+
+}
+.model-img
+{
+  position: absolute;
+  float:right;
+  width: 480px;
+  height: 630px;
+  right: 0px;
+
+}
+.model-img-mobile
+{
+  width: 0px;
+}
+.background-img
+{
+  position: relative;
+  bottom:647px;
+  left: 0px;
+  z-index: -1;
+}
+
+.button{
+  background: #CE9797;
+  background-image: -webkit-linear-gradient(top, #CE9797, #F96262);
+  /*
+  background-image: -moz-linear-gradient(top, #CE9797, #F96262);
+  background-image: -ms-linear-gradient(top, #CE9797, #F96262);
+  background-image: -o-linear-gradient(top, #CE9797, #F96262);
+  background-image: linear-gradient(to bottom, #CE9797, #F96262);
+  */
+  border: solid #F96262 1px;
+  height: 70px;
+  border-radius: 40px;
+  width: 120px;
+  line-height: 14px;
+  color: #FFFFFF;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  padding: 12px;
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  left: 377px;
+  top:550px;
+
+}
+
+.button:hover {
+   border: solid #ED3333 1px;
+   background: #EF5555;
+   background-image: -webkit-linear-gradient(top, #EF5555, #F63D3D);
+   border-radius: 20px;
+   text-decoration: none;
+}
+.attribution{
+  position: absolute;
+  top: 600px;
+  text-align: center;
+  left: 540px;
+
+}
+
+
+@media (max-width: 550px){
+
+  body{
+      text-align: center;
+      width: 550px;
+overflow: auto;
+      margin: 0px;
+      padding: 0px;
+  }
+  h1
+  {
+    font-size: 4rem;
+    margin:10%;
+  }
+  input{
+    position: absolute;
+    top: 700px;
+    left:35px;
+    margin-bottom: 15%;
+  }
+  .model-img-mobile{
+    width: 575px;
+  }
+  .button{
+    position: absolute;
+    top:695px;
+    left: 330px;
+  }
+  .first-p{
+position: absolute;
+top:250px;
+  }
+  .container-text{
+    position: absolute;
+    top: 240px;
+    margin-left: 0;
+    margin-right: 0;
+  left: 0px;}
+    .firstText{
+      position: absolute;
+      left: 160px;
+      top: 0px;
+      line-height: 2px;
+
+    }
+    .secondText{
+      position: absolute;
+      top:45px;
+    }
+  .model-img{
+
+        width: 0%;
+        display:inline-block;
+        padding: 20px 0 0 0;
+        height: 115%;
+        z-index: -1;
+
+  }
+
+  .background-img
+  {
+    width: 0px;
+  }
+  .container-text{
+    background-color: pink;
+    width: 550px;
+  }
+  .attribution{
+    position: absolute;
+    top: 900px;
+    text-align: center;
+    left: 135px;
+
+  }
+
+
+
+}
