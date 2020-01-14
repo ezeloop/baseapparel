@@ -156,7 +156,7 @@ overflow: auto;
   input{
     position: absolute;
     top: 700px;
-    left:35px;
+    left:80px;
     margin-bottom: 15%;
   }
   .model-img-mobile{
@@ -165,7 +165,7 @@ overflow: auto;
   .button{
     position: absolute;
     top:695px;
-    left: 330px;
+    left: 370px;
   }
   .first-p{
 position: absolute;
@@ -176,7 +176,7 @@ top:250px;
     top: 240px;
     margin-left: 0;
     margin-right: 0;
-  left: 0px;}
+  left: 25px;}
     .firstText{
       position: absolute;
       left: 160px;
