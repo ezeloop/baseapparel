@@ -24,12 +24,15 @@ h2{
 }
 
 input{
+  font-size: 25px;
+  color:black;
+  background-color: pink;
   width: 400px;
   height: 50px;
   border-radius: 20px;
   position: relative;
-  bottom: 729px;
-  left: 85px;
+  bottom: 750px;
+  left: 70px;
 }
 a{
   color: #ff5d6c;
@@ -41,7 +44,7 @@ a:hover{
   position: absolute;
   top: 415px;
   font-size: 17px;
-  left: 87px;
+  left: 83px;
 
 
 }
@@ -119,7 +122,7 @@ color:black;
   cursor: pointer;
   position: absolute;
   left: 385px;
-  top:550px;
+  top:530px;
 
 }
 
@@ -130,6 +133,7 @@ color:black;
    border-radius: 20px;
    text-decoration: none;
 }
+
 .attribution{
   position: absolute;
   top: 600px;
@@ -161,6 +165,9 @@ overflow: auto;
   }
   .model-img-mobile{
     width: 575px;
+  }
+  .logo{
+   width: 0px;
   }
   .button{
     position: absolute;
@@ -210,12 +217,8 @@ top:250px;
     position: absolute;
     top: 900px;
     text-align: center;
-    left: 225px;
+    left: 215px;
 
-  }
-  .logo
-  {
-    width:0px;
   }
 
 
