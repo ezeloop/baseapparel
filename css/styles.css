@@ -168,6 +168,11 @@ p {
 .model-img-mobile{
   width:0px;
 }
+@viewport {
+  zoom: 1.0;
+  min-zoom: 1.0;
+  max-zoom: 2.0;
+}
 @media (max-width: 550px) {
   body {
     text-align: center;
