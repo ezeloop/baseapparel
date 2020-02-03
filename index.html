@@ -1,56 +1,87 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin: 0 0 30px 0;
+    }
   </style>
 </head>
+
 <body>
 
 
 
 
+  <div class="container">
 
-<img class="logo"src="images/logo.svg" alt="">
-<div class="container-text">
-<h1 class="firstText">WE'RE </h1>
-<h1 class="secondText">COOMING SOON</h1>
-  <p class="first-p">Hello fellow shoppers! We're currently building<br> our new fashion store.
-  Add your email below <br>to stay up-to-date with announcements <br>and our launch deals.
-  </p>
+    <div class="container-logo">
+      <img class="logo" src="images/logo.svg" alt="">
+    </div>
+    <div class="container-text1">
+      <h1>WE'RE </h1>
+    </div>
+    <div class="container-text2">
+      <h1>COOMING<br>SOON</h1>
+    </div>
 
-  </div>
+    <div class="container-text3">
+      <p>Hello fellow shoppers! We're currently building<br> our new fashion store.
+        Add your email below <br>to stay up-to-date with announcements <br>and our launch deals.
+      </p>
+    </div>
 
 
-    <img class="model-img"src="images/hero-desktop.jpg" alt="">
-    <img class="model-img-mobile"src="images/hero-mobile-575.jpg" alt="">
-
-<img class="background-img" src="images/bg-pattern-desktop-new.jpg" alt="" height="839" width="900">>
+    <div class="image-model">
 
 
+      <img class="model-img" src="images/hero-desktop.jpg" alt="">
 
-  <input class="email" id="email"type="email" name="email" placeholder="          Email Address">
-<div class="errorMessage" id="e-mail">Email cannot be empty</div>
+    </div>
+    <div class="model-mob">
+      <img class="model-img-mobile" src="images/hero-mobile-575.jpg" alt="">
+    </div>
+    <div class="background-div">
 
-<button class="button" type="sumbit" name="sumbit">></button>
 
+      <img class="background-img" src="images/bg-pattern-desktop-new.jpg" alt="" height="839" width="900">>
+    </div>
+    <div class="form-post">
+
+      <form method="post">
+
+
+        <input class="email" id="email" type="email" name="email" placeholder="          Email Address">
+        <div class="errorMessage" id="e-mail">Plase valide your email</div>
+
+
+      </form>
+
+    </div>
+    <div class="btnp">
+      <button class="button" type="sumbit" name="sumbit">></button>
+    </div>
 
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://www.linkedin.com/in/m-ezequiel-lopez/">Ezequiel Lopez</a>.
     </p>
+  </div>
 
-<script src="index.js" charset="utf-8"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
+
 </html>
