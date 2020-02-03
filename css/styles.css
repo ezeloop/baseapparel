@@ -219,7 +219,8 @@ p {
     margin-top: 120px;
     justify-content: start;
     margin-left: 0px;
-    margin-right: 0px;
+
+    margin-right: 30px;
   }
 
   .btnp {
@@ -227,7 +228,7 @@ p {
     grid-row: 5;
     display: flex;
     justify-content: end;
-    margin-left: 0px;
+    margin-left: 370px;
     margin-right: 0px;
     margin-top: 115px;
     padding-right: 70px;
