@@ -246,17 +246,20 @@ p {
   .background-img {
     width: 0px;
   }
+  .background-div{
+    width: 0px;
+  }
 
   .attribution {
     grid-column: 1;
     grid-row: 6;
   }
-}
+
 
 .logo {
   width: 0px;
 }
-}
+
 
 .background-div {
   width: 0px;
