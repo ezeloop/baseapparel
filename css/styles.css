@@ -163,7 +163,7 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 550px) {
   body {
     text-align: center;
     width: 550px;
